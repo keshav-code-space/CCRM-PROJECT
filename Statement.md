@@ -2,106 +2,62 @@
 
 ## 1. Problem Statement
 
-Managing student academic records such as student details, courses, enrollments, grades, and transcripts can become difficult when information is maintained manually or across multiple files.
+Managing student and course information manually can become difficult when the amount of data increases. Details such as student information, courses, enrollments, grades, and transcripts may be stored in different files, which can make it harder to find and update records.
 
-The **Campus Course & Records Manager (CCRM)** is designed to provide a centralized Java-based system for managing these academic records. The system allows users to maintain student and course information, manage enrollments and grades, generate transcripts, and perform data import, export, and backup operations.
+The **Campus Course & Records Manager (CCRM)** is developed to make this process easier. It provides a single system where student records, course details, enrollments, grades, and transcripts can be managed from the same application.
 
-The project also demonstrates the practical application of important **Java programming concepts**, including Object-Oriented Programming, collections, exception handling, file handling, Java Streams, Date/Time API, and design patterns.
+The project also helps demonstrate how Java concepts such as **OOP, file handling, exception handling, collections, streams, and the Date/Time API** can be used to build a practical application.
 
 ## 2. Scope of the Project
 
-The scope of CCRM includes the management and processing of academic information within a campus environment.
+The main purpose of CCRM is to manage basic academic records through a Java-based console application.
 
-The system covers:
+The project covers:
 
-* Student record management.
-* Course and instructor management.
-* Student enrollment and unenrollment.
-* Grade recording and academic result processing.
-* Transcript generation.
-* CSV-based data import and export.
-* File and data backup operations.
-* Academic reports and record processing.
-* Input validation and exception handling.
-* Command-line based interaction.
+* Adding and managing student information.
+* Adding and managing courses and instructors.
+* Enrolling students in courses.
+* Removing students from courses when required.
+* Managing and updating grades.
+* Generating student transcripts.
+* Importing and exporting records using CSV files.
+* Creating backups of important data.
+* Generating basic reports.
+* Handling invalid input and common errors properly.
 
-The current project is focused on a **Java SE console application with file-based storage**. It does not currently aim to provide a web-based interface, mobile application, or centralized database system.
+The current project is designed as a **Java SE console application** and mainly uses files for storing and handling data. It does not currently include a web interface, mobile application, or full database system.
 
 ## 3. Target Users
 
-The primary target users of the CCRM system are:
+The system can be useful for different people involved in managing academic records:
 
-### 3.1 Academic Administrators
+### Academic Administrators
 
-Administrators can manage student and course records, handle enrollments, maintain grades, perform data operations, and generate reports.
+They can use the system to maintain student, course, enrollment, and academic records.
 
-### 3.2 Faculty / Instructors
+### Instructors
 
-Instructors can use the system's academic record functionality to work with course-related information and student grades.
+Instructors can use the system to manage course-related information and student grades.
 
-### 3.3 Students
+### Students
 
-Students can be considered end users of academic information such as enrollment details, grades, and transcripts.
+Students can benefit from features such as viewing their academic information and generating transcripts.
 
-### 3.4 Project Developers / Students
+### Students/Developers
 
-The system is also useful as an educational project for students learning Java programming, OOP, file handling, collections, exception handling, Streams, and software design patterns.
+The project can also be used by students learning Java as an example of how different Java concepts can be combined to create a real-world application.
 
 ## 4. High-Level Features
 
-### Student Management
+The main features of the CCRM project are:
 
-* Add and maintain student records.
-* Search and view student information.
-* Update student details.
-* Manage student status.
-
-### Course Management
-
-* Create and maintain course records.
-* Store course code, title, credits, and instructor information.
-* Search and view available courses.
-
-### Enrollment Management
-
-* Enroll students in courses.
-* Remove students from courses.
-* Prevent invalid or duplicate enrollment operations.
-
-### Grade Management
-
-* Record student grades.
-* Process academic results.
-* Maintain grade information for enrolled courses.
-
-### Transcript Generation
-
-* Generate a student's academic transcript.
-* Display course, enrollment, and grade information.
-* Support academic result processing.
-
-### Data Import & Export
-
-* Import academic records from CSV files.
-* Export records to CSV files.
-* Support file-based data management.
-
-### Backup & Reports
-
-* Perform backup operations for stored data.
-* Generate useful academic reports.
-* Provide file-processing utilities.
-
-### Validation & Exception Handling
-
-* Validate user input and academic operations.
-* Handle invalid operations using appropriate exceptions.
-* Use custom exceptions for domain-specific errors.
-
-### Java-Based Architecture
-
-* Object-Oriented design.
-* Service-based separation of business logic.
-* Java NIO.2 for file operations.
-* Collections and Stream API for data processing.
-* Singleton and Builder design patterns where appropriate.
+* **Student Management** – Add and manage student records.
+* **Course Management** – Maintain course and instructor information.
+* **Enrollment Management** – Enroll or remove students from courses.
+* **Grade Management** – Store and update student grades.
+* **Transcript Generation** – Generate academic transcripts for students.
+* **CSV Import/Export** – Import and export records using CSV files.
+* **Backup** – Create copies of important academic data.
+* **Reports** – Generate useful academic information from the stored records.
+* **Validation & Exception Handling** – Handle incorrect input and prevent common data-related errors.
+* **Console Interface** – Provide a simple command-line interface for interacting with the system.
